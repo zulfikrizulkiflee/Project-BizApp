@@ -1,0 +1,975 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-us"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8 ie7" lang="en-us"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9 ie8" lang="en-us"><![endif]-->
+<!--[if gt IE 8]><html class="no-js ie9" lang="en-us"><![endif]-->
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Order - Pos Angara - Responsive Prestashop Theme</title>
+    <meta name="generator" content="PrestaShop" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/pos_angara/img/favicon.ico?1481698421" />
+    <link rel="shortcut icon" type="image/x-icon" href="/pos_angara/img/favicon.ico?1481698421" />
+    <link rel="stylesheet" href="http://demo.posthemes.com/pos_angara/themes/pos_angara1/cache/v_18_ecc7724fea8ae15343eb166884bc58d0_all.css" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Poppins:400,500,600,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        body,
+        p,
+        a,
+        span,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            font-family: Poppins;
+        }
+        
+        .fontcustom1 {
+            font-family: Poppins !important;
+        }
+    </style>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--[if IE 8]> 
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> 
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script> <![endif]-->
+</head>
+
+<body id="order" itemscope itemtype="http://schema.org/WebPage" class="order hide-left-column hide-right-column lang_en">
+    <div id="page">
+        <div class="header-container">
+            <header id="header">
+                <div class="nav">
+                    <div class="container">
+                        <div class="row">
+                            <nav>
+                                <div class="contact_top"> <a href="tel:0123-456-789" class="first">Phone: 0123-456-789</a> <a href="mailto:sales@yourcompany.com" title="Contact our expert support team!">Email: sales@yourcompany.com</a></div>
+                                <div class="header_cnt_block extra">
+                                    <form id="setCurrency" action="/pos_angara/en/order" method="post">
+                                        <div class="current">
+                                            <input type="hidden" name="id_currency" id="id_currency" value="" />
+                                            <input type="hidden" name="SubmitCurrency" value="" /> USD</div>
+                                        <div id="first-currencies" class="currencies_ul toogle_content"> <a href="javascript:setCurrency(1);" rel="nofollow" title="Dollar (USD)" class="selected"> Dollar (USD) </a> <a href="javascript:setCurrency(2);" rel="nofollow" title="Euro (EUR)"> Euro (EUR) </a></div>
+                                    </form>
+                                </div>
+                                <div class="header_cnt_block extra">
+                                    <div class="current"> English</div>
+                                    <div id="first-languages" class="languages-block_ul toogle_content"> <a href="http://demo.posthemes.com/pos_angara/en/order" title="English (English)" rel="alternate" hreflang="en" class="selected"> English </a> <a href="http://demo.posthemes.com/pos_angara/ar/order" title="اللغة العربية (Arabic)" rel="alternate" hreflang="ar"> اللغة العربية </a></div>
+                                </div>
+                                <div class="header_cnt_block"> <a href="javascriptvoid(0)" class="current">My account</a>
+                                    <div class="toogle_content"> <a class="login link_in fontcustom2" href="http://demo.posthemes.com/pos_angara/en/my-account" rel="nofollow" title="Log in to your customer account"> Sign in </a> <a href="http://demo.posthemes.com/pos_angara/en/order" title="View my shopping cart" rel="nofollow" class=" link_in fontcustom2"> My Cart </a> <a href="http://demo.posthemes.com/pos_angara/en/products-comparison" title="Compare" rel="nofollow" class="link_in fontcustom2 bt_compare"> Compare </a> <a href="http://demo.posthemes.com/pos_angara/en/module/blockwishlist/mywishlist" title="My wishlists" rel="nofollow" class="link_in fontcustom2"> Wishlist </a></div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_center">
+                    <div class="container">
+                        <div class="row">
+                            <div id="header_logo">
+                                <a href="http://demo.posthemes.com/pos_angara/" title="Pos Angara - Responsive Prestashop Theme"> <img class="logo img-responsive" src="http://demo.posthemes.com/pos_angara/img/pos-angara-responsive-prestashop-theme-logo-14815306251.jpg" alt="Pos Angara - Responsive Prestashop Theme" width="193" height="58" /> </a>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 col-md-6">
+                                <div id="pos_search_top" class="wrap_seach list-inline">
+                                    <form method="get" action="http://demo.posthemes.com/pos_angara/en/search" id="searchbox" class="form-inline form_search">
+                                        <label for="pos_query_top"></label>
+                                        <input type="hidden" name="controller" value="search" />
+                                        <input type="hidden" name="orderby" value="position" />
+                                        <input type="hidden" name="orderway" value="desc" />
+                                        <div class="pos_search form-group">
+                                            <select name="poscats" class="selectpicker">
+                                                <option value="">All Categories</option>
+                                                <option value="12">&nbsp;&nbsp;&nbsp;&nbsp;Cookware</option>
+                                                <option value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking & Pastry Mats</option>
+                                                <option value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking Mats</option>
+                                                <option value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pastry Boards</option>
+                                                <option value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pastry Mats</option>
+                                                <option value="23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking Cups</option>
+                                                <option value="24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking Dishes</option>
+                                                <option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chocolate Moulds</option>
+                                                <option value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Decorating Pens</option>
+                                                <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Decorating Sets</option>
+                                                <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Decorating Tips</option>
+                                                <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DecoSpoon</option>
+                                                <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sweetly Does It</option>
+                                                <option value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cupcake & Muffin Pans</option>
+                                                <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking Cups</option>
+                                                <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baking Moulds</option>
+                                                <option value="32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bundt Pans</option>
+                                                <option value="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cake Moulds</option>
+                                                <option value="34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cake Pans</option>
+                                                <option value="13">&nbsp;&nbsp;&nbsp;&nbsp;Bakeware</option>
+                                                <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chopping Boards</option>
+                                                <option value="38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aprons</option>
+                                                <option value="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Coffee</option>
+                                                <option value="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tea Accessories</option>
+                                                <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tea Towels</option>
+                                                <option value="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cleaning Supplies</option>
+                                                <option value="42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cutting</option>
+                                                <option value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graters</option>
+                                                <option value="37">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oven Mitts</option>
+                                                <option value="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rasps</option>
+                                                <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shavers</option>
+                                                <option value="14">&nbsp;&nbsp;&nbsp;&nbsp;Appliances</option>
+                                                <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scales</option>
+                                                <option value="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Measuring</option>
+                                                <option value="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timers</option>
+                                                <option value="15">&nbsp;&nbsp;&nbsp;&nbsp;Knives</option>
+                                                <option value="49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mandoline Slicers</option>
+                                                <option value="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ice Cream</option>
+                                                <option value="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Slushy Makers</option>
+                                                <option value="16">&nbsp;&nbsp;&nbsp;&nbsp;Tableware</option>
+                                            </select>
+                                        </div>
+                                        <input class="search_query form-control ac_input" type="text" placeholder="Enter your search key ... " id="pos_query_top" name="search_query" value="" />
+                                        <button type="submit" name="submit_search" value="Search" class="btn btn-default submit_search"> <i class="material-icons">search</i> </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="shopping_cart_out ">
+                                <div class="shopping_cart">
+                                    <a href="http://demo.posthemes.com/pos_angara/en/order" title="View my shopping cart" rel="nofollow"> <i class="material-icons">shopping_cart</i> Cart <span class="ajax_cart_quantity">1</span> </a>
+                                    <div class="cart_block block exclusive">
+                                        <div class="block_content">
+                                            <div class="cart_block_list">
+                                                <dl class="products"><dt data-id="cart_block_product_8_51_0" class="first_item"><div class="dt_in"> <a class="cart-images" href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html" title="Scanpan Classic"><img src="http://demo.posthemes.com/pos_angara/54-cart_default/printed-chiffon-dress.jpg" alt="Scanpan Classic" /></a><div class="cart-info"><div class="product-name"> <span class="quantity-formated"><span class="quantity">1</span>x</span><a class="cart_block_product_name" href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/size-s/color-yellow" title="Scanpan Classic">Scanpan Classic</a></div><div class="product-atributes"> <a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/size-s/color-yellow" title="Product detail">S, Yellow</a></div> <span class="price"> $17.43 <span class="hookDisplayProductPriceBlock-price"> </span> </span></div> <span class="remove_link"> <a class="ajax_cart_block_remove_link" href="http://demo.posthemes.com/pos_angara/en/cart?delete=1&amp;id_product=8&amp;ipa=51&amp;id_address_delivery=0&amp;token=1913784429979a3d96441b33cc27c03c" rel="nofollow" title="remove this product from my cart">&nbsp;</a> </span></div></dt>
+                                                    <dd data-id="cart_block_combination_of_8_51_0" class="first_item"></dd>
+                                                </dl>
+                                                <p class="cart_block_no_products unvisible"> No products</p>
+                                                <div class="cart-prices">
+                                                    <div class="cart-prices-line first-line"> <span class="price cart_block_shipping_cost ajax_cart_shipping_cost"> $7.00 </span> <span> Shipping </span></div>
+                                                    <div class="cart-prices-line last-line"> <span class="price cart_block_total ajax_block_cart_total">$24.43</span> <span>Total</span></div>
+                                                </div>
+                                                <p class="cart-buttons"> <a id="button_order_cart" href="http://demo.posthemes.com/pos_angara/en/order" title="Check out" rel="nofollow"> Check out </a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="layer_cart">
+                                <div class="clearfix">
+                                    <div class="layer_cart_product col-xs-12 col-md-6"> <span class="cross" title="Close window"></span> <span class="title"> <i class="icon-check"></i>Product successfully added to your shopping cart </span>
+                                        <div class="product-image-container layer_cart_img"></div>
+                                        <div class="layer_cart_product_info"> <span id="layer_cart_product_title" class="product-name"></span> <span id="layer_cart_product_attributes"></span>
+                                            <div> <strong class="dark">Quantity</strong> <span id="layer_cart_product_quantity"></span></div>
+                                            <div> <strong class="dark">Total</strong> <span id="layer_cart_product_price"></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="layer_cart_cart col-xs-12 col-md-6"> <span class="title"> <span class="ajax_cart_product_txt_s unvisible"> There are <span class="ajax_cart_quantity">1</span> items in your cart. </span> <span class="ajax_cart_product_txt "> There is 1 item in your cart. </span> </span>
+                                        <div class="layer_cart_row"> <strong class="dark"> Total products </strong> <span class="ajax_block_products_total"> $17.43 </span></div>
+                                        <div class="layer_cart_row"> <strong class="dark"> Total shipping&nbsp; </strong> <span class="ajax_cart_shipping_cost"> $7.00 </span></div>
+                                        <div class="layer_cart_row"> <strong class="dark"> Total </strong> <span class="ajax_block_cart_total"> $24.43 </span></div>
+                                        <div class="button-container"> <span class="continue btn btn-default button exclusive-medium" title="Continue shopping"> <span> Continue shopping </span> </span>
+                                            <a class="btn btn-default button button-medium" href="http://demo.posthemes.com/pos_angara/en/order" title="Proceed to checkout" rel="nofollow"> <span> Proceed to checkout </span> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="crossseling"></div>
+                            </div>
+                            <div class="layer_cart_overlay"></div>
+                            <div class="wishlists_top">
+                                <a href="http://demo.posthemes.com/pos_angara/en/module/blockwishlist/mywishlist" title="My wishlists"> <i class="material-icons">favorite_border</i>Wishlist </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="hidden-xs hidden-sm col-md-3">
+                                <div class="pt_vegamenu">
+                                    <div class="pt_vmegamenu_title">
+                                        <h3>Categories</h3></div>
+                                    <div id="pt_vmegamenu" class="pt_vegamenu_cate">
+                                        <div id="ver_pt_menu12" class="pt_menu">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/12-cookware"> <span>Cookware</span> </a>
+                                            </div>
+                                            <div class="wrap-popup">
+                                                <div id="ver_popup12" class="popup">
+                                                    <div class="box-popup">
+                                                        <div class="block1">
+                                                            <div class="column first col1" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/17-baking-pastry-mats"><span>Baking&nbsp;&&nbsp;Pastry&nbsp;Mats</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/20-baking-mats"><span>Baking&nbsp;Mats</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/21-pastry-boards"><span>Pastry&nbsp;Boards</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/22-pastry-mats"><span>Pastry&nbsp;Mats</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/23-baking-cups"><span>Baking&nbsp;Cups</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/24-baking-dishes"><span>Baking&nbsp;Dishes</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column col2" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/18-chocolate-moulds"><span>Chocolate&nbsp;Moulds</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/25-decorating-pens"><span>Decorating&nbsp;Pens</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/26-decorating-sets"><span>Decorating&nbsp;Sets</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/27-decorating-tips"><span>Decorating&nbsp;Tips</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/28-decospoon"><span>DecoSpoon</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/29-sweetly-does-it"><span>Sweetly&nbsp;Does&nbsp;It</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column last col3" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/19-cupcake-muffin-pans"><span>Cupcake&nbsp;&&nbsp;Muffin&nbsp;Pans</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/30-baking-cups"><span>Baking&nbsp;Cups</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/31-baking-moulds"><span>Baking&nbsp;Moulds&nbsp;</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/32-bundt-pans"><span>Bundt&nbsp;Pans</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/33-cake-moulds"><span>Cake&nbsp;Moulds</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/34-cake-pans"><span>Cake&nbsp;Pans</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearBoth"></div>
+                                                        </div>
+                                                        <div class="block2">
+                                                            <div class="cms_vega">
+                                                                <a href="12-cookware"> <img src="/pos_angara/img/cms/cms_vega.jpg" alt="" class="img-responsive" /> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu13" class="pt_menu">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/13-bakeware"> <span>Bakeware</span> </a>
+                                            </div>
+                                            <div class="wrap-popup">
+                                                <div id="ver_popup13" class="popup">
+                                                    <div class="box-popup">
+                                                        <div class="block1">
+                                                            <div class="column first col1" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/35-chopping-boards"><span>Chopping&nbsp;Boards&nbsp;</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/38-aprons"><span>Aprons</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/39-coffee"><span>Coffee</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/40-tea-accessories"><span>Tea&nbsp;Accessories</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column col2" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/36-tea-towels"><span>Tea&nbsp;Towels</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/41-cleaning-supplies"><span>Cleaning&nbsp;Supplies</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/42-cutting"><span>Cutting</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/43-graters"><span>Graters</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column last col3" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/37-oven-mitts"><span>Oven&nbsp;Mitts</span></a>
+                                                                    <div class="itemSubMenu level3">
+                                                                        <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/44-rasps"><span>Rasps</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/45-shavers"><span>Shavers</span></a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="clearBoth"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu14" class="pt_menu">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/14-appliances"> <span>Appliances</span> </a>
+                                            </div>
+                                            <div class="wrap-popup">
+                                                <div id="ver_popup14" class="popup">
+                                                    <div class="box-popup">
+                                                        <div class="block1">
+                                                            <div class="column last col1" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/46-scales"><span>Scales</span></a><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/47-measuring"><span>Measuring</span></a><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/48-timers"><span>Timers</span></a></div>
+                                                            </div>
+                                                            <div class="clearBoth"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu15" class="pt_menu">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/15-knives"> <span>Knives</span> </a>
+                                            </div>
+                                            <div class="wrap-popup">
+                                                <div id="ver_popup15" class="popup">
+                                                    <div class="box-popup">
+                                                        <div class="block1">
+                                                            <div class="column last col1" style="float:left;">
+                                                                <div class="itemMenu level1"><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/49-mandoline-slicers"><span>Mandoline&nbsp;Slicers</span></a><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/50-ice-cream"><span>Ice&nbsp;Cream</span></a><a class="itemMenuName level3 nochild" href="http://demo.posthemes.com/pos_angara/en/51-slushy-makers"><span>Slushy&nbsp;Makers</span></a></div>
+                                                            </div>
+                                                            <div class="clearBoth"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu16" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/16-tableware"> <span>Tableware</span> </a>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu32" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/32-bundt-pans"> <span>Bundt Pans</span> </a>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu33" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/33-cake-moulds"> <span>Cake Moulds</span> </a>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu34" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/34-cake-pans"> <span>Cake Pans</span> </a>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu30" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/30-baking-cups"> <span>Baking Cups</span> </a>
+                                            </div>
+                                        </div>
+                                        <div id="ver_pt_menu31" class="pt_menu noSub">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/31-baking-moulds"> <span>Baking Moulds </span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="hidden-md hidden-lg col-xs-12">
+                                <div class="pt_custommenu_mobile">
+                                    <div class="navbar">
+                                        <div id="navbar-inner" class="navbar-inner navbar-inactive"> <a class="btn-navbar">Category</a>
+                                            <ul id="pt_custommenu_itemmobile" class="tree dhtml mobilemenu nav-collapse collapse">
+                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/12-cookware" title=""> Cookware </a>
+                                                    <ul>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/17-baking-pastry-mats" title=""> Baking &amp; Pastry Mats </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/20-baking-mats" title=""> Baking Mats </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/21-pastry-boards" title=""> Pastry Boards </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/22-pastry-mats" title=""> Pastry Mats </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/23-baking-cups" title=""> Baking Cups </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/24-baking-dishes" title=""> Baking Dishes </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/18-chocolate-moulds" title=""> Chocolate Moulds </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/25-decorating-pens" title=""> Decorating Pens </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/26-decorating-sets" title=""> Decorating Sets </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/27-decorating-tips" title=""> Decorating Tips </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/28-decospoon" title=""> DecoSpoon </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/29-sweetly-does-it" title=""> Sweetly Does It </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/19-cupcake-muffin-pans" title=""> Cupcake &amp; Muffin Pans </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/30-baking-cups" title=""> Baking Cups </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/31-baking-moulds" title=""> Baking Moulds </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/32-bundt-pans" title=""> Bundt Pans </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/33-cake-moulds" title=""> Cake Moulds </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/34-cake-pans" title=""> Cake Pans </a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/13-bakeware" title=""> Bakeware </a>
+                                                    <ul>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/35-chopping-boards" title=""> Chopping Boards </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/38-aprons" title=""> Aprons </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/39-coffee" title=""> Coffee </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/40-tea-accessories" title=""> Tea Accessories </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/36-tea-towels" title=""> Tea Towels </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/41-cleaning-supplies" title=""> Cleaning Supplies </a></li>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/42-cutting" title=""> Cutting </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/43-graters" title=""> Graters </a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/37-oven-mitts" title=""> Oven Mitts </a>
+                                                            <ul>
+                                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/44-rasps" title=""> Rasps </a></li>
+                                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/45-shavers" title=""> Shavers </a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/14-appliances" title=""> Appliances </a>
+                                                    <ul>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/46-scales" title=""> Scales </a></li>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/47-measuring" title=""> Measuring </a></li>
+                                                        <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/48-timers" title=""> Timers </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li> <a href="http://demo.posthemes.com/pos_angara/en/15-knives" title=""> Knives </a>
+                                                    <ul>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/49-mandoline-slicers" title=""> Mandoline Slicers </a></li>
+                                                        <li> <a href="http://demo.posthemes.com/pos_angara/en/50-ice-cream" title=""> Ice Cream </a></li>
+                                                        <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/51-slushy-makers" title=""> Slushy Makers </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/16-tableware" title=""> Tableware </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-9 hidden-xs hidden-sm">
+                                <div class="nav-container visible-desktop">
+                                    <div id="pt_custommenu" class="pt_custommenu">
+                                        <div id="pt_menu_home" class="pt_menu">
+                                            <div class="parentMenu"><a class="fontcustom2" href="/pos_angara/"><span>Home</span></a></div>
+                                        </div>
+                                        <div id="pt_menu12" class="pt_menu nav-1">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/12-cookware" class="fontcustom2"> <span>Cookware</span> <i class="icon-caret-down"></i> </a>
+                                            </div>
+                                            <div id="popup12" class="popup" style="display: none; width: 1228px;">
+                                                <div class="block1" id="block112">
+                                                    <div class="column first col1">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/17-baking-pastry-mats"><span>Baking&nbsp;&&nbsp;Pastry&nbsp;Mats</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/20-baking-mats"><span>Baking&nbsp;Mats</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/21-pastry-boards"><span>Pastry&nbsp;Boards</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/22-pastry-mats"><span>Pastry&nbsp;Mats</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/23-baking-cups"><span>Baking&nbsp;Cups</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/24-baking-dishes"><span>Baking&nbsp;Dishes</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column col2">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/18-chocolate-moulds"><span>Chocolate&nbsp;Moulds</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/25-decorating-pens"><span>Decorating&nbsp;Pens</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/26-decorating-sets"><span>Decorating&nbsp;Sets</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/27-decorating-tips"><span>Decorating&nbsp;Tips</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/28-decospoon"><span>DecoSpoon</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/29-sweetly-does-it"><span>Sweetly&nbsp;Does&nbsp;It</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column last col3">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/19-cupcake-muffin-pans"><span>Cupcake&nbsp;&&nbsp;Muffin&nbsp;Pans</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/30-baking-cups"><span>Baking&nbsp;Cups</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/31-baking-moulds"><span>Baking&nbsp;Moulds&nbsp;</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/32-bundt-pans"><span>Bundt&nbsp;Pans</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/33-cake-moulds"><span>Cake&nbsp;Moulds</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/34-cake-pans"><span>Cake&nbsp;Pans</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearBoth"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="pt_menu13" class="pt_menu nav-2">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/13-bakeware" class="fontcustom2"> <span>Bakeware</span> <i class="icon-caret-down"></i> </a>
+                                            </div>
+                                            <div id="popup13" class="popup" style="display: none; width: 1228px;">
+                                                <div class="block1" id="block113">
+                                                    <div class="column first col1">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/35-chopping-boards"><span>Chopping&nbsp;Boards&nbsp;</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/38-aprons"><span>Aprons</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/39-coffee"><span>Coffee</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/40-tea-accessories"><span>Tea&nbsp;Accessories</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column col2">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/36-tea-towels"><span>Tea&nbsp;Towels</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/41-cleaning-supplies"><span>Cleaning&nbsp;Supplies</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/42-cutting"><span>Cutting</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/43-graters"><span>Graters</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column last col3">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level3" href="http://demo.posthemes.com/pos_angara/en/37-oven-mitts"><span>Oven&nbsp;Mitts</span></a>
+                                                            <div class="itemSubMenu level3">
+                                                                <div class="itemMenu level4"><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/44-rasps"><span>Rasps</span></a><a class="itemMenuName level4" href="http://demo.posthemes.com/pos_angara/en/45-shavers"><span>Shavers</span></a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearBoth"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="pt_menu36" class="pt_menu nav-3">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/36-tea-towels" class="fontcustom2"> <span>Tea Towels</span> <i class="icon-caret-down"></i> </a>
+                                            </div>
+                                            <div id="popup36" class="popup" style="display: none; width: 1228px;">
+                                                <div class="block1" id="block136">
+                                                    <div class="column last col1">
+                                                        <div class="itemMenu level1"><a class="itemMenuName level4 nochild" href="http://demo.posthemes.com/pos_angara/en/41-cleaning-supplies"><span>Cleaning&nbsp;Supplies</span></a><a class="itemMenuName level4 nochild" href="http://demo.posthemes.com/pos_angara/en/42-cutting"><span>Cutting</span></a><a class="itemMenuName level4 nochild" href="http://demo.posthemes.com/pos_angara/en/43-graters"><span>Graters</span></a></div>
+                                                    </div>
+                                                    <div class="column blockright">
+                                                        <div class="cms_mega">
+                                                            <a href="12-cookware"> <img src="/pos_angara/img/cms/cms_mega.jpg" alt="" class="img-responsive" /> </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clearBoth"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="pt_menu25" class="pt_menu nav-4 pt_menu_no_child">
+                                            <div class="parentMenu">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/25-decorating-pens" class="fontcustom2"> <span>Decorating Pens</span> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="body_content">
+            <div class="columns-container">
+                <div id="columns" class="container">
+                    <div class="breadcrumb clearfix"> <a class="home" href="http://demo.posthemes.com/pos_angara/" title="Return to Home">Home</a> <span class="navigation-pipe">&gt;</span> Your shopping cart</div>
+                    <div id="slider_row" class="row"></div>
+                    <div class="row">
+                        <div id="center_column" class="center_column col-xs-12 col-sm-12">
+                            <h1 id="cart_title" class="page-heading">Shopping-cart summary <span class="heading-counter">Your shopping cart contains: <span id="summary_products_quantity">1 product</span> </span></h1>
+                            <ul class="step clearfix" id="order_step">
+                                <li class="step_current first"> <span><em>01.</em> Summary</span></li>
+                                <li class="step_todo second"> <span><em>02.</em> Sign in</span></li>
+                                <li class="step_todo third"> <span><em>03.</em> Address</span></li>
+                                <li class="step_todo four"> <span><em>04.</em> Shipping</span></li>
+                                <li id="step_end" class="step_todo last"> <span><em>05.</em> Payment</span></li>
+                            </ul>
+                            <p id="emptyCartWarning" class="alert alert-warning unvisible">Your shopping cart is empty.</p>
+                            <div class="cart_last_product">
+                                <div class="cart_last_product_header">
+                                    <div class="left">Last product added</div>
+                                </div>
+                                <a class="cart_last_product_img" href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html"> <img src="http://demo.posthemes.com/pos_angara/54-small_default/printed-chiffon-dress.jpg" alt="Scanpan Classic" /> </a>
+                                <div class="cart_last_product_content">
+                                    <p class="product-name"> <a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/size-s/color-yellow"> Scanpan Classic </a></p> <small> <a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/size-s/color-yellow"> Size : S, Color : Yellow </a> </small></div>
+                            </div>
+                            <div id="order-detail-content" class="table_block table-responsive">
+                                <table id="cart_summary" class="table table-bordered stock-management-off">
+                                    <thead>
+                                        <tr>
+                                            <th class="cart_product first_item">Product</th>
+                                            <th class="cart_description item">Description</th>
+                                            <th class="cart_unit item text-right">Unit price</th>
+                                            <th class="cart_quantity item text-center">Qty</th>
+                                            <th class="cart_delete last_item">&nbsp;</th>
+                                            <th class="cart_total item text-right">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr class="cart_total_price">
+                                            <td rowspan="4" colspan="3" id="cart_voucher" class="cart_voucher"></td>
+                                            <td colspan="2" class="text-right">Total products</td>
+                                            <td colspan="2" class="price" id="total_product">$17.43</td>
+                                        </tr>
+                                        <tr style="display: none;">
+                                            <td colspan="3" class="text-right"> Total gift-wrapping cost</td>
+                                            <td colspan="2" class="price-discount price" id="total_wrapping"> $0.00</td>
+                                        </tr>
+                                        <tr class="cart_total_delivery">
+                                            <td colspan="2" class="text-right">Total shipping</td>
+                                            <td colspan="2" class="price" id="total_shipping">$7.00</td>
+                                        </tr>
+                                        <tr class="cart_total_voucher unvisible">
+                                            <td colspan="2" class="text-right"> Total vouchers</td>
+                                            <td colspan="2" class="price-discount price" id="total_discount"> $0.00</td>
+                                        </tr>
+                                        <tr class="cart_total_price">
+                                            <td colspan="2" class="total_price_container text-right"> <span>Total</span>
+                                                <div class="hookDisplayProductPriceBlock-price"></div>
+                                            </td>
+                                            <td colspan="2" class="price" id="total_price_container"> <span id="total_price">$24.43</span></td>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr id="product_8_51_0_0" class="cart_item last_item first_item address_0 odd">
+                                            <td class="cart_product">
+                                                <a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/1-size-s/16-color-yellow"><img src="http://demo.posthemes.com/pos_angara/54-small_default/printed-chiffon-dress.jpg" alt="Scanpan Classic" width="98" height="113" /></a>
+                                            </td>
+                                            <td class="cart_description">
+                                                <p class="product-name"><a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/1-size-s/16-color-yellow">Scanpan Classic</a></p> <small class="cart_ref">SKU : demo_8</small> <small><a href="http://demo.posthemes.com/pos_angara/en/decorating-pens/8-printed-chiffon-dress.html#/1-size-s/16-color-yellow">Size : S, Color : Yellow</a></small></td>
+                                            <td class="cart_unit" data-title="Unit price">
+                                                <ul class="price text-right" id="product_price_8_51_0">
+                                                    <li class="price special-price">$17.43</li>
+                                                    <li class="price-percent-reduction small"> &nbsp;-15%&nbsp;</li>
+                                                    <li class="old-price">$20.50</li>
+                                                </ul>
+                                            </td>
+                                            <td class="cart_quantity text-center" data-title="Quantity">
+                                                <input type="hidden" value="1" name="quantity_8_51_0_0_hidden" />
+                                                <input size="2" type="text" autocomplete="off" class="cart_quantity_input form-control grey" value="1" name="quantity_8_51_0_0" />
+                                                <div class="cart_quantity_button clearfix">
+                                                    <a rel="nofollow" class="cart_quantity_down btn btn-default button-minus" id="cart_quantity_down_8_51_0_0" href="http://demo.posthemes.com/pos_angara/en/cart?add=1&amp;id_product=8&amp;ipa=51&amp;id_address_delivery=0&amp;op=down&amp;token=1913784429979a3d96441b33cc27c03c" title="Subtract"> <span><i class="icon-minus"></i></span> </a> <a rel="nofollow" class="cart_quantity_up btn btn-default button-plus" id="cart_quantity_up_8_51_0_0" href="http://demo.posthemes.com/pos_angara/en/cart?add=1&amp;id_product=8&amp;ipa=51&amp;id_address_delivery=0&amp;token=1913784429979a3d96441b33cc27c03c" title="Add"><span><i class="icon-plus"></i></span></a></div>
+                                            </td>
+                                            <td class="cart_delete text-center" data-title="Delete">
+                                                <div> <a rel="nofollow" title="Delete" class="cart_quantity_delete" id="8_51_0_0" href="http://demo.posthemes.com/pos_angara/en/cart?delete=1&amp;id_product=8&amp;ipa=51&amp;id_address_delivery=0&amp;token=1913784429979a3d96441b33cc27c03c"><i class="icon-trash"></i></a></div>
+                                            </td>
+                                            <td class="cart_total" data-title="Total"> <span class="price" id="total_product_price_8_51_0"> $17.43 </span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="HOOK_SHOPPING_CART"></div>
+                            <p class="cart_navigation clearfix">
+                                <a href="http://demo.posthemes.com/pos_angara/en/order?step=1" class="button btn btn-default standard-checkout button-medium" title="Proceed to checkout"> <span>Proceed to checkout<i class="icon-chevron-right right"></i></span> </a>
+                                <a href="http://demo.posthemes.com/pos_angara/en/" class="button-exclusive btn btn-default" title="Continue shopping"> <i class="icon-chevron-left"></i>Continue shopping </a>
+                            </p>
+                            <div class="clear"></div>
+                            <div class="cart_navigation_extra">
+                                <div id="HOOK_SHOPPING_CART_EXTRA"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+            <footer id="footer">
+                <div class="footer_top">
+                    <div id="newsletter_block_left">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6 col-lg-5">
+                                    <div class="header_title"> <span class="txt1">Sign Up for Newsletters</span> <span class="txt2">Be the First to Know. Sign up for newsletter today</span></div>
+                                </div>
+                                <div class="col-xs-12 col-md-6 col-lg-7">
+                                    <form action="//demo.posthemes.com/pos_angara/en/" method="post">
+                                        <div class="form-group">
+                                            <input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="Enter your e-mail" />
+                                            <button type="submit" name="submitNewsletter" class="btn_newsletter"> Subscribe ! </button>
+                                            <input type="hidden" name="action" value="0" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_center">
+                    <div class="customer_support">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="info_out">
+                                        <div class="info"><i class="material-icons">speaker_phone</i>
+                                            <div class="txt"><span class="txt1">888 345 6789</span> <span class="txt2">Free support line!</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="info_out center">
+                                        <div class="info"><i class="material-icons">mail_outline</i>
+                                            <div class="txt"><span class="txt1">Support@posthemes.com</span> <span class="txt2">Orders Support!</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-md-4">
+                                    <div class="info_out last">
+                                        <div class="info"><i class="material-icons">access_time</i>
+                                            <div class="txt"><span class="txt1">Mon - Fri / 8:00 - 18:00</span> <span class="txt2">Working Days/Hours!</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container footer_center2">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                <div class="footer-block store_info">
+                                    <h4 class="visible-xs">Store Infomation</h4>
+                                    <div class="toggle-footer"><img src="/pos_angara/img/cms/logo_dark.png" alt="" class="img-responsive" />
+                                        <p class="desc">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
+                                        <p class="contact">Contact info:</p>
+                                        <p class="desc">169-C, Technohub, Dubai Silicon Oasis.</p>
+                                        <div class="social_link">
+                                            <a class="_blank" href="https://www.facebook.com/posthemes"> <i class="icon-facebook">facebook</i> </a>
+                                            <a class="_blank" href="https://twitter.com/posthemes"> <i class="icon-twitter">twitter</i> </a>
+                                            <a class="_blank" href="#"> <i class="icon-rss">rss</i> </a>
+                                            <a class="_blank" href="#"> <i class="icon-youtube">youtube</i> </a>
+                                            <a class="_blank" href="https://plus.google.com/100616268634541521861/postsLynk" rel="publisher"> <i class="icon-google">google</i> </a>
+                                            <a class="_blank" href="#"> <i class="icon-pinterest">pinterest</i> </a>
+                                            <a class="_blank" href="#"> <i class="icon-vimeo">vimeo</i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <section class="blockcategories_footer footer-block col-xs-12 col-sm-6 col-md-3">
+                                <h4>Categories</h4>
+                                <div class="category_footer toggle-footer">
+                                    <div class="list">
+                                        <ul class="tree dhtml">
+                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/12-cookware" title=""> Cookware </a>
+                                                <ul>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/17-baking-pastry-mats" title=""> Baking &amp; Pastry Mats </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/20-baking-mats" title=""> Baking Mats </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/21-pastry-boards" title=""> Pastry Boards </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/22-pastry-mats" title=""> Pastry Mats </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/23-baking-cups" title=""> Baking Cups </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/24-baking-dishes" title=""> Baking Dishes </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/18-chocolate-moulds" title=""> Chocolate Moulds </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/25-decorating-pens" title=""> Decorating Pens </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/26-decorating-sets" title=""> Decorating Sets </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/27-decorating-tips" title=""> Decorating Tips </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/28-decospoon" title=""> DecoSpoon </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/29-sweetly-does-it" title=""> Sweetly Does It </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/19-cupcake-muffin-pans" title=""> Cupcake &amp; Muffin Pans </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/30-baking-cups" title=""> Baking Cups </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/31-baking-moulds" title=""> Baking Moulds </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/32-bundt-pans" title=""> Bundt Pans </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/33-cake-moulds" title=""> Cake Moulds </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/34-cake-pans" title=""> Cake Pans </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/13-bakeware" title=""> Bakeware </a>
+                                                <ul>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/35-chopping-boards" title=""> Chopping Boards </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/38-aprons" title=""> Aprons </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/39-coffee" title=""> Coffee </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/40-tea-accessories" title=""> Tea Accessories </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/36-tea-towels" title=""> Tea Towels </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/41-cleaning-supplies" title=""> Cleaning Supplies </a></li>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/42-cutting" title=""> Cutting </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/43-graters" title=""> Graters </a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/37-oven-mitts" title=""> Oven Mitts </a>
+                                                        <ul>
+                                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/44-rasps" title=""> Rasps </a></li>
+                                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/45-shavers" title=""> Shavers </a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/14-appliances" title=""> Appliances </a>
+                                                <ul>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/46-scales" title=""> Scales </a></li>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/47-measuring" title=""> Measuring </a></li>
+                                                    <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/48-timers" title=""> Timers </a></li>
+                                                </ul>
+                                            </li>
+                                            <li> <a href="http://demo.posthemes.com/pos_angara/en/15-knives" title=""> Knives </a>
+                                                <ul>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/49-mandoline-slicers" title=""> Mandoline Slicers </a></li>
+                                                    <li> <a href="http://demo.posthemes.com/pos_angara/en/50-ice-cream" title=""> Ice Cream </a></li>
+                                                    <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/51-slushy-makers" title=""> Slushy Makers </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="last"> <a href="http://demo.posthemes.com/pos_angara/en/16-tableware" title=""> Tableware </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="footer-block col-xs-12 col-sm-6 col-md-3" id="block_various_links_footer">
+                                <h4>Information</h4>
+                                <ul class="toggle-footer">
+                                    <li class="item"> <a href="http://demo.posthemes.com/pos_angara/en/prices-drop" title="Specials"> Specials </a></li>
+                                    <li class="item"> <a href="http://demo.posthemes.com/pos_angara/en/new-products" title="New products"> New products </a></li>
+                                    <li class="item"> <a href="http://demo.posthemes.com/pos_angara/en/best-sales" title="Top sellers"> Top sellers </a></li>
+                                    <li class="item"> <a href="http://demo.posthemes.com/pos_angara/en/stores" title="Our stores"> Our stores </a></li>
+                                    <li class="item"> <a href="http://demo.posthemes.com/pos_angara/en/contact-us" title="Contact us"> Contact us </a></li>
+                                </ul>
+                            </section>
+                            <section class="footer-block col-xs-12 col-sm-6 col-md-2">
+                                <h4><a href="http://demo.posthemes.com/pos_angara/en/my-account" title="Manage my customer account" rel="nofollow">My account</a></h4>
+                                <div class="block_content toggle-footer">
+                                    <ul class="bullet">
+                                        <li><a href="http://demo.posthemes.com/pos_angara/en/order-history" title="My orders" rel="nofollow">My orders</a></li>
+                                        <li><a href="http://demo.posthemes.com/pos_angara/en/credit-slip" title="My credit slips" rel="nofollow">My credit slips</a></li>
+                                        <li><a href="http://demo.posthemes.com/pos_angara/en/addresses" title="My addresses" rel="nofollow">My addresses</a></li>
+                                        <li><a href="http://demo.posthemes.com/pos_angara/en/identity" title="Manage my personal information" rel="nofollow">My personal info</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="tag_payment">
+                        <div class="container">
+                            <div class="tag_content"><a href="#">Online Shopping</a> <a href="#">Promotions</a> <a href="#">My Orders</a> <a href="#">Help</a> <a href="#">Customer Service</a> <a href="#">Support</a> <a href="#">Most Populars</a> <a href="#">New Arrivals</a> <a href="#">Special Products</a> <a href="#">Manufacturers</a> <a href="#">Our Stores</a> <a href="#">Shipping</a> <a href="#">Payments</a> <a href="#">Warantee</a> <a href="#">Refunds</a> <a href="#">Checkout</a> <a href="#">Discount</a> <a href="#">Terms & Conditions</a> <a href="#">Policy</a> <a href="#">Shipping</a> <a href="#">Payments</a> <a href="#">Returns</a> <a href="#">Refunds</a></div>
+                            <div class="payment"><img src="/pos_angara/img/cms/payment.jpg" alt="" class="img-responsive" /></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bot">
+                    <div class="container">
+                        <p class="copyright">Copyright © 2017 <a href="#" class="_blank hl">Posthemes</a>. All Rights Reserved</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="back-top">
+        <a href="#" class="back-top-button hidden-xs"></a>
+    </div>
+    <script type="text/javascript">
+        /* <![CDATA[ */ ;
+        var CUSTOMIZE_TEXTFIELD = 1;
+        var Day = 'Day';
+        var Days = 'Days';
+        var FancyboxI18nClose = 'Close';
+        var FancyboxI18nNext = 'Next';
+        var FancyboxI18nPrev = 'Previous';
+        var Hour = 'Hour';
+        var Hours = 'Hours';
+        var Minute = 'Min';
+        var Minutes = 'Mins';
+        var Month = 'Month';
+        var Months = 'Months';
+        var Second = 'Sec';
+        var Seconds = 'Secs';
+        var Week = 'Week';
+        var Weeks = 'Weeks';
+        var Year = 'Year';
+        var Years = 'Years';
+        var added_to_wishlist = 'The product was successfully added to your wishlist.';
+        var ajax_allowed = true;
+        var ajaxsearch = true;
+        var baseDir = 'http://demo.posthemes.com/pos_angara/';
+        var baseUri = 'http://demo.posthemes.com/pos_angara/';
+        var contentOnly = false;
+        var currency = {
+            "id": 1
+            , "name": "Dollar"
+            , "iso_code": "USD"
+            , "iso_code_num": "840"
+            , "sign": "$"
+            , "blank": "0"
+            , "conversion_rate": "1.000000"
+            , "deleted": "0"
+            , "format": "1"
+            , "decimals": "1"
+            , "active": "1"
+            , "prefix": "$ "
+            , "suffix": ""
+            , "id_shop_list": null
+            , "force_id": false
+        };
+        var currencyBlank = 0;
+        var currencyFormat = 1;
+        var currencyRate = 1;
+        var currencySign = '$';
+        var customizationIdMessage = 'Customization #';
+        var delete_txt = 'Delete';
+        var deliveryAddress = 0;
+        var displayList = false;
+        var freeProductTranslation = 'Free!';
+        var freeShippingTranslation = 'Free shipping!';
+        var generated_date = 1487211048;
+        var hasDeliveryAddress = false;
+        var highDPI = true;
+        var id_lang = 1;
+        var img_dir = 'http://demo.posthemes.com/pos_angara/themes/pos_angara1/img/';
+        var instantsearch = false;
+        var isGuest = 0;
+        var isLogged = 0;
+        var isMobile = false;
+        var loggin_required = 'You must be logged in to manage your wishlist.';
+        var mywishlist_url = 'http://demo.posthemes.com/pos_angara/en/module/blockwishlist/mywishlist';
+        var page_name = 'order';
+        var placeholder_blocknewsletter = 'Enter your e-mail';
+        var priceDisplayMethod = 1;
+        var priceDisplayPrecision = 2;
+        var quickView = true;
+        var removingLinkText = 'remove this product from my cart';
+        var roundMode = 2;
+        var static_token = '1913784429979a3d96441b33cc27c03c';
+        var toBeDetermined = 'To be determined';
+        var token = 'b15a637e00b4aa97fecbb8314f3f59f4';
+        var txtProduct = 'product';
+        var txtProducts = 'products';
+        var usingSecureMode = false;
+        var wishlistProductsIds = false; /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://demo.posthemes.com/pos_angara/themes/pos_angara1/cache/v_18_b4c51b94bee2143f99bbc27421776e95.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */ ;
+        $('document').ready(function () {
+            $("#pos_query_top").autocomplete('http://demo.posthemes.com/pos_angara/en/search', {
+                minChars: 3
+                , max: 10
+                , width: 500
+                , selectFirst: false
+                , loadingClass: "ac_loading"
+                , inputClass: "ac_input"
+                , scroll: false
+                , dataType: "json"
+                , formatItem: function (data, i, max, value, term) {
+                    return value;
+                }
+                , parse: function (data) {
+                    var mytab = new Array();
+                    for (var i = 0; i < data.length; i++) mytab[mytab.length] = {
+                        data: data[i]
+                        , value: data[i].cname + ' > ' + data[i].pname
+                    };
+                    return mytab;
+                }
+                , extraParams: {
+                    ajaxSearch: 1
+                    , id_lang: 1
+                }
+            }).result(function (event, data, formatted) {
+                $('#pos_query_top').val(data.pname);
+                document.location.href = data.product_link;
+            })
+        });;
+        $(window).on('load', function () {
+            $('.selectpicker').selectpicker({
+                'selectedText': 'cat'
+            });
+        });;
+        var VMEGAMENU_POPUP_EFFECT = 2;
+        $(document).ready(function () {
+            $(".pt_vegamenu .pt_vmegamenu_title").on('click', function (e) {
+                e.stopPropagation();
+                var vega = $(".pt_vegamenu .pt_vegamenu_cate");
+                if (vega.is(':hidden')) {
+                    vega.slideDown();
+                }
+                else {
+                    vega.slideUp();
+                }
+                e.preventDefault();
+            });
+            $(".pt_ver_menu_link ul li").each(function () {
+                var url = document.URL;
+                $(".pt_ver_menu_link ul li a").removeClass("act");
+                $('.pt_ver_menu_link ul li a[href="' + url + '"]').addClass('act');
+            });
+            var count_block = $('.pt_vegamenu .pt_menu').length;
+            var number_blocks = 6;
+            if (count_block < number_blocks) {
+                return false;
+            }
+            else {
+                $('.pt_vegamenu .pt_menu').each(function (i, n) {
+                    if (i == number_blocks) {
+                        $('.pt_vegamenu_cate').append('<div class="pt_menu noSub"><div class="parentMenu"><a href="javascript:void(0)" class="view_more"><span>+ More categories</span></a></div></div>');
+                    }
+                    if (i > number_blocks) {
+                        $(this).addClass('hide_menu_block');
+                    }
+                })
+                $('.hide_menu_block').hide();
+                $('.view_more').click(function () {
+                    $(this).toggleClass('active');
+                    $('.hide_menu_block').slideToggle();
+                });
+            }
+        });;
+        $('div#categories_block_left ul.dhtml').hide();;
+        var CUSTOMMENU_POPUP_EFFECT = 0;
+        var CUSTOMMENU_POPUP_TOP_OFFSET = 54; /* ]]> */
+    </script>
+</body>
+
+</html>
